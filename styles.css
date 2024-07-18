@@ -2,77 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
-.titillium-web-extralight {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .titillium-web-light {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .titillium-web-regular {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .titillium-web-semibold {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .titillium-web-bold {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .titillium-web-black {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .titillium-web-extralight-italic {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .titillium-web-light-italic {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .titillium-web-regular-italic {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .titillium-web-semibold-italic {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .titillium-web-bold-italic {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-
+/*Menu*/
   nav {
     position: relative;
 }
-
 .menu-button {
     display: inline-block;
     padding: 10px 20px;
@@ -81,7 +14,6 @@
     cursor: pointer;
     text-align: center;
 }
-
 .close-button {
     display: none;
     position: absolute;
@@ -91,11 +23,9 @@
     color: #fff;
     cursor: pointer;
 }
-
 #menuToggle {
     display: none;
 }
-
 .overlay {
     height: 100%;
     width: 100%;
@@ -108,15 +38,12 @@
     transform: translateY(-100%);
     z-index: 1;
 }
-
 #menuToggle:checked + .menu-button + .overlay {
     transform: translateY(0);
 }
-
 #menuToggle:checked + .menu-button + .overlay .close-button {
     display: block;
 }
-
 .overlay-content {
     position: relative;
     top: 25%;
@@ -124,7 +51,6 @@
     text-align: center;
     margin-top: 30px;
 }
-
 .overlay-content a {
     padding: 8px;
     text-decoration: none;
@@ -133,7 +59,10 @@
     display: block;
     transition: 0.3s;
 }
-
 .overlay-content a:hover, .overlay-content a:focus {
     color: #f1f1f1;
+}
+
+a {
+    font-family: Titillium Web;
 }
